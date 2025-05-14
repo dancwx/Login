@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+
+           background-color: rgba(228,180,157,255);
+        background-image: url(imagens/01d921c591c722cf0586c45092a1b1ea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; /* <- centraliza a imagem da boneca */
+ 
+    }
+    section#login > div#form{
+float: right;
+  text-align: center;
+  width: 70%;
+    }
+}
+@media screen and (min-width: 992px ) {
+      section#login{
+           width: 990px;
+      }
+        section#login > div#img{
+            float: left;
+            width: 50%;
+            height: 100%;
+
+                    background-color: rgba(228,180,157,255);
+        background-image: url(imagens/01d921c591c722cf0586c45092a1b1ea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; /* <- centraliza a imagem da boneca */
+        }
+            section#login > div#form{
+              float: right;
+              width: 50%;
+            }
+}
