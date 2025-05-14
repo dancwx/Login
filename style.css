@@ -121,8 +121,9 @@ form input[type="password"] {
 }
 
 #form p {
-    margin-bottom: 20px;
-    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
     color: #444;
 }
 
@@ -136,6 +137,6 @@ form input[type="password"] {
 /* Ajuste no botão */
 form > input[type=submit],
 form > a.botao {
-    margin-top: 12px;
+    margin-top: 5px;
 }
 
